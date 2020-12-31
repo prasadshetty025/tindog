@@ -1,0 +1,155 @@
+h1{
+  font-family: 'Montserrat',sans-serif;
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
+body{
+  font-family: 'Montserrat-regular',sans-serif;
+}
+.container-fluid{
+padding: 3% 15% 5%;
+}
+
+h2{
+  font-family: 'Montserrat',sans-serif;
+  line-height: 1.5;
+  font-size: 3rem;
+  padding: 3% 15%;
+
+}
+h3{
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+p{
+color: #8f8f8f;
+width: 70%;
+margin: auto;
+}
+
+
+
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+  padding-bottom: 5%;
+}
+
+#features{
+  padding: 10%;
+  background-color: #fff;
+  position: relative;
+}
+
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+
+#testimonials {
+  background-color: #ff4c68;
+  color: #fff;
+    text-align: center;
+}
+
+#press{
+  background-color:  #ff4c68;
+  text-align: center;
+  padding: 3% 5%;
+}
+
+#pricing{
+  padding: 10%;
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+
+}
+.navbar-brand{
+  font-family: "Ubuntu-regular",sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+.navbar-nav{
+  padding-right: 10rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+.icon{
+  text-align: center;
+}
+.fas{
+  margin-bottom: 5%;
+  color: #ef8172;
+}
+.fas:hover{
+  color: #ff4c68;
+}
+.testimonials-image{
+  border-radius: 100%;
+  width: 10%;
+  margin-bottom: 5%;
+}
+.price-p{
+  margin-bottom: 5%;
+  font-size: 1.2rem;
+}
+
+.press-image{
+  width: 15%;
+  margin: 20px 50px;
+}
+.card-body{
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+
+}
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+}
+.h3-cta{
+  color: #fff;
+  padding-top: 5%;
+  font-size: 3rem;
+  width: 50%;
+  margin: auto;
+}
+
+#footer{
+  text-align: center;
+}
+
+.icon-2{
+  padding: 5% 1% 0 1%;
+  margin: auto;
+}
+
+.Copyright{
+  padding-bottom: 10%;
+  padding-top: 2%;
+
+}
